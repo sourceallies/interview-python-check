@@ -1,4 +1,4 @@
-# Python Interview Problem Check
+# Interview Check (Python)
 Use this repo as a check to make sure your local setup is functioning properly.
 
 ## How To Check

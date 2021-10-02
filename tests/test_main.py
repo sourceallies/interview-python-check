@@ -1,4 +1,4 @@
-from py_check.main import get_bar, get_foo
+from py_check.mainn import get_bar, get_foo
 
 
 def test_get_foo_should_return_foo():
