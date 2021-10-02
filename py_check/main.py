@@ -21,4 +21,4 @@ def get_baz() -> str:
 
 
 if __name__ == "__main__":
-    print("\n\nIf you can see this you successfully ran the program!\n\n")
+    print("\n\nHello World!\n\n")
