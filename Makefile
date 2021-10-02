@@ -1,9 +1,9 @@
 test:
-	poetry run coverage run --source py_problem -m pytest tests
+	poetry run coverage run --source py_check -m pytest tests
 	coverage report
 
 run:
-	python py_problem/main.py
+	python py_check/main.py
 
 install:
 	poetry install
