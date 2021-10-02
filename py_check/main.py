@@ -4,7 +4,8 @@ from dataclasses import dataclass
 @dataclass
 class FooBar:
     foo: str = "foo"
-    bar: str = "baz"
+    bar: str = "bar"
+    baz: str = "baz"
 
 
 def get_foo() -> str:
@@ -12,7 +13,11 @@ def get_foo() -> str:
 
 
 def get_bar() -> str:
-    return FooBar.bar
+    return FooBar.baz
+
+
+def get_baz() -> str:
+    return FooBar.baz
 
 
 if __name__ == "__main__":
