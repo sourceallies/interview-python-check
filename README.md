@@ -15,14 +15,14 @@ https://github.com/sourceallies/interviews/blob/main/docs/interview-environment.
 4. Select "Reopen in Container"
 
 ## The Problem
-There some failing tests in this project. As well as an invalid import in the tests file. The tests can be run as follows:
+There some failing tests in this project and a broken import in `test_main.py`. Fix the import error and then run the tests as follows:
 
 ```
 $ make test
 ```
 
 ## Acceptance Criteria
-Make the tests pass. Only update code in the `Generator` class.
+Fix the broken import and make the tests pass. Only update code in the `main.py` or `test_main.py` files.
 
 When you run the application, you should see `Hello World!` printed to the console. Run the application as follows:
 
